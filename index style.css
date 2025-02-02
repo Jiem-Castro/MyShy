@@ -1,0 +1,136 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: rgb(249,227,227);
+background: radial-gradient(circle, rgba(249,227,227,1) 35%, rgba(250,182,182,1) 100%);
+    font-family: 'Arial', sans-serif;
+    flex-direction: column;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    color: #d32f2f;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  .yes-button {
+    font-size: 1.5em;
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .no-button {
+    font-size: 1.5em;
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .gif_container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #ffe6e6; /* Light pink background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .container {
+    text-align: center;
+    max-width: 1000px;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Added shadow */
+  }
+
+  h1 {
+    font-size: 36px;
+    color: #d32f2f; /* Rose pink */
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Added text shadow */
+  }
+
+  p {
+    font-size: 20px; /* Increased font size */
+    color: #660033; /* Dark pink text */
+    margin-bottom: 30px;
+    font-family: 'Segoe Script', cursive; /* Romantic font */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Added text shadow */
+  }
+
+  .gif-container {
+    width: 80%;
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Added shadow */
+    margin: 0 auto; /* Center the gif */
+    margin-bottom: 30px;
+  }
+
+  img {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  button {
+    padding: 12px 24px;
+    font-size: 18px;
+    border: 2px solid #d32f2f; /* Light pink border */
+    border-radius: 25px;
+    cursor: pointer;
+    margin: 35px;
+    transition: all 0.3s ease;
+    outline: none;
+    background-color: #d32f2f; /* Rose pink */
+    color: #fff;
+  }
+
+  button:hover {
+    background-color: #e47272; /* Lighter shade of pink */
+    border-color: #e47272; /* Lighter shade of pink border on hover */
+    transform: scale(1.1);
+  }
+
+  button:focus {
+    box-shadow: 0 0 0 3px #e47272; /* Pink outline when focused */
+    transform: scale(1.1);
+  }
+
+  .shake {
+    animation: shake 0.5s ease-in-out;
+  }
+
+  @keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+  }
