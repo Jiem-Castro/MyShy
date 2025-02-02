@@ -36,6 +36,22 @@ button {
     background-color: #d32f2f; /* Rose pink */
     color: #fff;
   }
+  .styled-link {
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid #d32f2f;
+    border-radius: 10px;
+    background-color: #d32f2f;
+    transition: all 0.3s ease;
+}
+
+.styled-link:hover {
+    background-color: #cb8478;
+    color: white;
+}
 
   button:hover {
     background-color: #e47272; /* Lighter shade of pink */
